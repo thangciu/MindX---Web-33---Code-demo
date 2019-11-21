@@ -1,0 +1,29 @@
+.navbar {
+  background-color: #563d7c;
+  overflow: auto;
+}
+
+.navbar-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.navbar .menu {
+  list-style: none;
+  overflow: auto;
+  margin: 0;
+  padding: 8px 16px;
+}
+
+.navbar .menu .menu-item {
+  float: left;
+  margin: 8px;
+  color: #cbbde2;
+}
+
+.navbar .menu .menu-item:hover {
+  color: #ffffff;
+  cursor: pointer;
+}

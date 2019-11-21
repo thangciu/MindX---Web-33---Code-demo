@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Form</title>
+</head>
+<body>
+  <form action="https://google.com" method="get" name="form-example">
+    Text
+    <input type="text" value="Hello" />
+    <input type="text" disabled />
+    <input type="text" placeholder="Nhập vào đây" />
+    Email
+    <input type="email" />
+    Password
+    <input type="password" />
+    Number
+    <input type="number" />
+    Radio
+    <input type="radio" name="radio" />
+    <input type="radio" name="radio" />
+    Checkbox
+    <input type="checkbox" name="checkbox" />
+    <input type="checkbox" name="checkbox" />
+    Select
+    <select>
+      <option value="1">Option 1</option>
+      <option value="2">Option 2</option>
+    </select>
+    <input type="submit" />
+  </form>
+
+  <script>
+    console.log(document.forms['form-example']);
+  </script>
+</body>
+</html>

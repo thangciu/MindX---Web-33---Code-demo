@@ -1,0 +1,38 @@
+.text-red {
+  color: red;
+}
+
+#text-blue {
+  color: blue;
+}
+
+input[type] {
+  background-color: blue;
+}
+
+form fieldset legend {
+  color: red;
+}
+
+form.form-example {
+  background-color: lightgray;
+}
+
+form fieldset:first-child {
+  background-color: green;
+}
+
+form:last-child {
+  background-color: blue;
+}
+
+input[type="submit"]:hover {
+  background-color: lightskyblue;
+}
+
+section div p:last-of-type {
+  color: green;
+}
+
+
+

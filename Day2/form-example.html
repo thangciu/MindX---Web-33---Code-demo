@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Form example</title>
+  <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+  <h1>Pizza Form</h1>
+  <form class="form-example" name="form">
+    <fieldset>
+      <legend>Personal Info</legend>
+      <div>
+        <label>First Name: </label>
+        <input type="text" />
+      </div>
+      <div>
+        <label>Last Name: </label>
+        <input type="text" />
+      </div>
+      <div>
+        <label>Phone: </label>
+        <input type="number" />
+      </div>
+    </fieldset>
+    
+    <fieldset>
+      <legend>Pizza</legend>
+      <div>
+        <p>Size: </p>
+        <input id="small" type="radio" name="size" value="small">
+        <label for="small">Small</label>
+        <input id="medium" type="radio" name="size" value="medium">
+        <label for="medium">Medium</label>
+        <input id="large" type="radio" name="size" value="large">
+        <label for="large">Large</label>
+      </div>
+
+      <div>
+        <p>Topping (check all topping):</p>
+        <div>
+          <input type="checkbox" />
+          <label>Extra cheese</label>
+
+          <input type="checkbox" />
+          <label>Pepperoni</label>
+
+          <input type="checkbox" />
+          <label>Sausage</label>
+        </div>
+
+        <div>
+          <input type="checkbox" />
+          <label>Extra cheese</label>
+
+          <input type="checkbox" />
+          <label>Pepperoni</label>
+
+          <input type="checkbox" />
+          <label>Sausage</label>
+        </div>
+
+        <div>
+            <input type="checkbox" />
+            <label>Extra cheese</label>
+  
+            <input type="checkbox" />
+            <label>Pepperoni</label>
+  
+            <input type="checkbox" />
+            <label>Sausage</label>
+          </div>
+      </div>
+    </fieldset>
+
+    <input id="submit" type="submit" value="Enter my information" />
+  </form>
+
+  <script>
+    document.getElementById('submit').addEventListener('click', function(event) {
+      const form = document.forms.form;
+      console.log(form.size.value)
+      event.preventDefault();
+    })
+  </script>
+</body>
+</html>

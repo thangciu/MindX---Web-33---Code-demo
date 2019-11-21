@@ -1,0 +1,70 @@
+.red-box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+
+.blue-box {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  display: inline-block;
+}
+
+.margin-10 {
+  margin: 10px;
+}
+
+.box-1 {
+  /* float: left; */
+}
+
+.box-2 {
+  float: right;
+}
+
+.float-left {
+  float: left;
+  width: 50%;
+}
+
+.float-right {
+  /* float: right; */
+  /* width: 50%; */
+}
+
+.red-text {
+  color: red;
+}
+
+.d-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.green-box {
+  width: 50px;
+  height: 50px;
+  background-color: green;
+}
+
+/* POSITION */
+.position-relative {
+  position: relative;
+  /* top: 50px; */
+  /* left: 50px; */
+}
+
+.position-fixed {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+}
+
+.position-absolute {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

@@ -1,0 +1,31 @@
+p {
+  color: red;
+}
+
+div div div div div div div div div p.green-text {
+  color: blue;
+}
+
+.green-text {
+  color: green;
+}
+
+#yellow-text {
+  color: yellow;
+}
+
+h2 span {
+  color: blue;
+}
+
+.red-text span {
+  color: red;
+}
+
+.link-gray:hover {
+  color: gray;
+}
+
+#link-red:hover {
+  color: red;
+}
